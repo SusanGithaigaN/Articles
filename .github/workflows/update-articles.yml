@@ -18,8 +18,8 @@ jobs:
                 limit: 5
             - name: Commit
               run: |
-                git config user.name github-actions
-                git config user.email github-actions@github.com
+                git config SusanGithaigaN github-actions
+                git config susangithaiga26@gmail.com github-actions@github.com
                 git add .
                 git commit -m "update articles"
                 git push origin main
